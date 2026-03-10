@@ -6,7 +6,7 @@ An interactive web-based implementation of **Binary Coded Decimal (BCD)** counte
 
 ## 🚀 Live Demo
 You can interact with the live project here:
-👉 **[Insert Your GitHub Pages Link Here]**
+👉 **(https://samisalehin.github.io/DLD-SSD/)**
 
 ---
 
