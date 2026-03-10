@@ -21,7 +21,6 @@ The project is structured to offer two different versions of the counter, access
 * **Version 1 (`bcdCounter.html`):** The primary logic implementation.
 * **Version 2 (`bcdcounter2.html`):** An alternative UI/UX approach for the counter.
 * **Logic Engine (`script.js`):** Handles the mathematical conversion and state management.
-* **Styling (`css.css` / `css2.css`):** Custom layouts for a clean, modern interface.
 
 ---
 
@@ -34,34 +33,18 @@ The project is structured to offer two different versions of the counter, access
 | `bcdcounter2.html` | BCD Counter Interface (Alternative Version). |
 | `script.js` | JavaScript functionality for counting and BCD logic. |
 | `css.css` | Primary stylesheet for visual layout. |
-| `css2.css` | Secondary stylesheet for variant designs. |
-| `myslide.pptx` | Presentation detailing the project concept and technical specs. |
-| `myslide/` | Directory containing supporting assets for the presentation. |
+| `myslide.pptx` | Presentation detailing the project concept. |
 
 ---
 
-## ⚙️ How to Use
-1.  **Launch:** Visit the [Live Link](https://samisalehin.github.io/DLD-SSD/) or open `index.html` locally.
-2.  **Navigate:** Use the buttons on the home page to select **Version 1** or **Version 2**.
-3.  **Interact:** Use the UI buttons to increment or reset the BCD values and watch the display update in real-time.
+## 🔍 Inside the Hub (index.html)
 
----
+The `index.html` file acts as the dashboard for this project. It contains the navigation links to the different counter modules. Here is the core structure:
 
-## 🔬 Technical Context: BCD to 7-Segment
-Binary Coded Decimal (BCD) represents each decimal digit with four bits. To display these on a screen, the bits are decoded into a **Seven Segment Display (SSD)** pattern.
-
-
-
-For example, the number **5** is represented as:
-* **Binary:** `0101`
-* **SSD Segments:** $a, c, d, f, g$ are active.
-
----
-
-## 👤 Author
-**Sami Salehin**
-* **GitHub:** [@SamiSalehin](https://github.com/SamiSalehin)
-* **Project Repository:** [DLD-SSD](https://github.com/SamiSalehin/DLD-SSD)
-
----
-*Created for Digital Logic Design (DLD) studies.*
+```html
+<nav>
+    <ul>
+        <li><a href="bcdCounter.html">Go to BCD Counter v1</a></li>
+        <li><a href="bcdcounter2.html">Go to BCD Counter v2</a></li>
+    </ul>
+</nav>
